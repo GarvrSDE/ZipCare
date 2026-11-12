@@ -1,0 +1,234 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZipCare | Bag Repair Studio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="navbar">
+  <a href="#home" class="logo"><span>Zip</span>Care<span class="logo-dot">.</span></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+  <nav id="navLinks">
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#how-it-works">How It Works</a>
+    <a href="#about">About</a>
+    <a href="#booking" class="nav-cta">Book a Repair ↗</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <span class="eyebrow"><span class="live-dot"></span> YOUR TRUSTED BAG REPAIR STUDIO</span>
+      <h1>Small fixes.<br><span>Longer journeys.</span></h1>
+      <p>Give your favourite bags a second life. From stuck zippers to worn-out handles, we bring your everyday essentials back to their best.</p>
+      <div class="hero-actions">
+        <a href="#booking" class="btn btn-primary">Book a Repair <span>↗</span></a>
+        <a href="#services" class="text-link">Explore services ↓</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong>4.9<span>/5</span></strong><small>Customer rating</small></div>
+        <div><strong>2,500<span>+</span></strong><small>Bags repaired</small></div>
+        <div><strong>24–48<span>h</span></strong><small>Typical turnaround</small></div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-image-frame">
+        <div class="hero-suitcase">
+          <div class="case-handle"></div>
+          <div class="case-body">
+            <div class="case-line"></div>
+            <div class="case-line"></div>
+            <div class="case-line"></div>
+            <div class="case-lock"></div>
+          </div>
+          <div class="case-wheel wheel-left"></div>
+          <div class="case-wheel wheel-right"></div>
+        </div>
+        <span class="floating-tag tag-top">✦ REPAIR, DON'T REPLACE</span>
+        <span class="floating-tag tag-bottom"><span class="live-dot"></span> Crafted with care</span>
+      </div>
+      <div class="hero-number">01 <span>— BUILT TO LAST</span></div>
+    </div>
+  </section>
+
+  <section class="trust-strip">
+    <span>✳ Thoughtful repairs</span>
+    <span>✳ Fair, upfront pricing</span>
+    <span>✳ Care for every bag</span>
+    <span>✳ Less waste, more journeys</span>
+  </section>
+
+  <section class="section services-section" id="services">
+    <div class="section-heading">
+      <div>
+        <span class="eyebrow">WHAT WE CAN FIX</span>
+        <h2>Good bags deserve<br><span>a second chance.</span></h2>
+      </div>
+      <p>Practical repairs for the bags you love and rely on, handled with care and attention to detail.</p>
+    </div>
+
+    <div class="services-grid">
+      <article class="service-card">
+        <div class="service-art">
+          <img src="https://thetravelstore.com.sg/cdn/shop/articles/SEOon_Where_to_Repair_My_Luggage_in_Singapore.png?v=1738907961" alt="Suitcase zipper repair">
+          <span class="image-number">01</span>
+        </div>
+        <div class="service-info">
+          <div><span class="service-category">QUICK FIX</span><h3>Zip Slider Repair</h3></div>
+          <div class="service-price">₹149<span> onwards</span></div>
+        </div>
+        <p>Fix stuck or misaligned zipper sliders and get your bag moving smoothly again.</p>
+        <button class="service-select" data-service="Zip Slider Repair">Choose service <span>↗</span></button>
+      </article>
+
+      <article class="service-card">
+        <div class="service-art">
+          <img src="https://balovanphuc.com/upload/images/sua-tui-xach-lay-lien-1.png" alt="Handbag zipper replacement and repair">
+          <span class="image-number">02</span>
+        </div>
+        <div class="service-info">
+          <div><span class="service-category">ZIP REPLACEMENT</span><h3>Zipper Replacement</h3></div>
+          <div class="service-price">₹299<span> onwards</span></div>
+        </div>
+        <p>Replace damaged zipper tracks with a practical, durable new fastening.</p>
+        <button class="service-select" data-service="Zipper Replacement">Choose service <span>↗</span></button>
+      </article>
+
+      <article class="service-card">
+        <div class="service-art">
+          <img src="https://snrgmuvoxhqbnusbakkv.supabase.co/storage/v1/object/public/media/blog-images/remplacement-fermeture-eclair-sac-luxe-artisan.png" alt="Artisan repairing a leather bag">
+          <span class="image-number">03</span>
+        </div>
+        <div class="service-info">
+          <div><span class="service-category">LEATHER CARE</span><h3>Leather Bag Repair</h3></div>
+          <div class="service-price">₹399<span> onwards</span></div>
+        </div>
+        <p>Careful repairs for everyday wear, damaged seams and leather bag details.</p>
+        <button class="service-select" data-service="Leather Bag Repair">Choose service <span>↗</span></button>
+      </article>
+
+      <article class="service-card">
+        <div class="service-art">
+  <img
+    src="https://www.sgleather.com/images/service-02-repair.jpg"
+    alt="Bag handle and stitching repair"
+  >
+  <span class="image-number">04</span>
+</div>
+        <div class="service-info">
+          <div><span class="service-category">STRENGTHEN & RESTORE</span><h3>Handle & Stitching</h3></div>
+          <div class="service-price">₹249<span> onwards</span></div>
+        </div>
+        <p>Restore loose handles and weakened stitching for more dependable use.</p>
+        <button class="service-select" data-service="Handle & Stitching">Choose service <span>↗</span></button>
+      </article>
+    </div>
+    <p class="image-note">Repair images are illustrative. Final pricing depends on the bag and damage.</p>
+  </section>
+
+  <section class="estimate-section">
+    <div class="estimate-copy">
+      <span class="eyebrow">NO SURPRISES</span>
+      <h2>Know your estimate<br>before you <span>book.</span></h2>
+      <p>Choose a repair and bag type to see an indicative starting price. We'll confirm the final quote after inspection.</p>
+      <div class="estimate-points"><span>✓ Clear starting prices</span><span>✓ No booking fee in this demo</span></div>
+    </div>
+    <div class="estimate-box">
+      <div class="estimate-box-heading"><span>QUICK ESTIMATOR</span><span class="estimate-icon">↗</span></div>
+      <label for="estimateService">What needs fixing?</label>
+      <select id="estimateService">
+        <option value="149">Zip Slider Repair</option>
+        <option value="299">Zipper Replacement</option>
+        <option value="399">Leather Bag Repair</option>
+        <option value="249">Handle & Stitching</option>
+      </select>
+      <label for="bagType">Bag type</label>
+      <select id="bagType">
+        <option value="1">Backpack / Handbag</option>
+        <option value="1.25">Travel / Suitcase</option>
+        <option value="1.15">Premium / Leather bag</option>
+      </select>
+      <div class="estimate-result"><div><span>Estimated starting cost</span><small>Final price confirmed after inspection</small></div><strong id="estimatePrice">₹149</strong></div>
+      <a href="#booking" class="btn btn-primary full-btn">Continue to booking ↗</a>
+    </div>
+  </section>
+
+  <section class="section process-section" id="how-it-works">
+    <div class="section-heading">
+      <div><span class="eyebrow">SIMPLE AS 1, 2, 3</span><h2>Repair without<br><span>the runaround.</span></h2></div>
+      <p>A straightforward process from describing the problem to getting your bag ready for its next journey.</p>
+    </div>
+    <div class="process-grid">
+      <article class="process-card"><span class="process-number">01</span><div class="process-icon">⌕</div><h3>Tell us the issue</h3><p>Select your repair, describe the problem and share your contact details.</p></article>
+      <article class="process-card"><span class="process-number">02</span><div class="process-icon">✳</div><h3>Get an estimate</h3><p>We review the request and confirm the repair details and final price.</p></article>
+      <article class="process-card"><span class="process-number">03</span><div class="process-icon">↗</div><h3>Back to adventure</h3><p>Once the repair is completed, your bag is ready for its next trip.</p></article>
+    </div>
+  </section>
+
+  <section class="booking-section" id="booking">
+    <div class="booking-copy">
+      <span class="eyebrow">LET'S GET IT FIXED</span>
+      <h2>Your bag has places<br>left to <span>go.</span></h2>
+      <p>Tell us a little about your bag and what needs attention. Start with a repair request below.</p>
+      <div class="booking-contact">
+        <div class="contact-icon">✉</div>
+        <div><strong>Simple, direct booking</strong><p>This college project uses a demo form. It doesn't send a real request to a repair shop.</p></div>
+      </div>
+    </div>
+
+    <form class="booking-form" id="bookingForm">
+      <div class="form-heading"><h3>Repair request</h3><span>* Required fields</span></div>
+      <div class="form-row">
+        <div class="form-field"><label for="customerName">Your name *</label><input type="text" id="customerName" placeholder="e.g. Aarav Sharma" required></div>
+        <div class="form-field"><label for="customerPhone">Phone number *</label><input type="tel" id="customerPhone" placeholder="10-digit mobile number" pattern="[6-9][0-9]{9}" maxlength="10" required></div>
+      </div>
+      <div class="form-field"><label for="customerEmail">Email address</label><input type="email" id="customerEmail" placeholder="you@example.com"></div>
+      <div class="form-row">
+        <div class="form-field"><label for="bookingService">Repair service *</label><select id="bookingService" required><option value="">Choose a service</option><option>Zip Slider Repair</option><option>Zipper Replacement</option><option>Leather Bag Repair</option><option>Handle & Stitching</option></select></div>
+        <div class="form-field"><label for="bookingBagType">Bag type *</label><select id="bookingBagType" required><option value="">Choose bag type</option><option>Backpack</option><option>Handbag</option><option>Suitcase / Travel bag</option><option>Leather bag</option><option>Other</option></select></div>
+      </div>
+      <div class="form-field"><label for="bookingIssue">Describe the problem *</label><textarea id="bookingIssue" rows="3" placeholder="Tell us what happened to your bag..." required></textarea></div>
+      <button type="submit" class="btn btn-primary full-btn">Create demo booking <span>↗</span></button>
+      <p class="form-disclaimer">Demo only: booking details are saved in this browser using local storage.</p>
+      <div id="bookingMessage" class="booking-message" role="status" aria-live="polite"></div>
+    </form>
+  </section>
+
+  <section class="tracker-section">
+    <div class="tracker-inner">
+      <div><span class="eyebrow">ALREADY BOOKED?</span><h2>Track your <span>request.</span></h2><p>Enter the booking ID created by this demo on this browser.</p></div>
+      <form id="trackingForm" class="tracking-form"><label for="trackingId">Booking ID</label><div class="tracking-input-row"><input id="trackingId" placeholder="e.g. ZC123456" required><button class="btn btn-dark" type="submit">Track ↗</button></div><div id="trackingResult" class="tracking-result" role="status" aria-live="polite"></div></form>
+    </div>
+  </section>
+
+  <section class="section about-section" id="about">
+    <div class="about-visual"><div class="about-circle"><span>ZIP</span><strong>CARE</strong><small>REPAIR • REUSE • REPEAT</small></div><span class="about-stamp">MADE TO LAST ↗</span></div>
+    <div class="about-copy"><span class="eyebrow">A LITTLE MORE CARE</span><h2>Better than throwing<br>good things <span>away.</span></h2><p>At ZipCare, the idea is simple: the bag you already own deserves a chance to keep going. A repair can be a practical alternative to replacing something you love.</p><p>From a troublesome zipper to a tired handle, we focus on clear communication, useful repairs and less unnecessary waste.</p><a href="#services" class="text-link">Explore our services →</a></div>
+  </section>
+
+  <section class="section faq-section">
+    <div class="section-heading"><div><span class="eyebrow">GOOD TO KNOW</span><h2>Frequently asked<br><span>questions.</span></h2></div></div>
+    <div class="faq-list">
+      <details><summary>How much will my repair cost? <span>+</span></summary><p>The listed prices are starting estimates. The final price depends on the bag, parts required and extent of damage.</p></details>
+      <details><summary>How long does a repair take? <span>+</span></summary><p>Many simple repairs can take 24–48 hours, but timing depends on the repair and parts availability.</p></details>
+      <details><summary>Can you repair any type of bag? <span>+</span></summary><p>We show common repair categories here. Whether a specific bag can be repaired depends on its material and condition.</p></details>
+      
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-main"><a href="#home" class="logo footer-logo"><span>Zip</span>Care<span class="logo-dot">.</span></a><p>Repair what you love.<br>Keep the journey going.</p><a href="#booking" class="footer-cta">Start a repair ↗</a></div>
+  <div class="footer-bottom"><span>© <span id="currentYear"></span> ZipCare|Developed by Team WEBX3.</span><a href="#home">Back to top ↑</a></div>
+</footer>
+
+</body>
+</html>
